@@ -1,0 +1,44 @@
+body {
+  background: #eaeaea;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: #07415d;
+  text-align: center;
+  color: #fff;
+}
+
+.header .logo {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  max-height: 100px;
+}
+
+.apps .title,
+.games .title {
+  border-left: 8px solid #07415d;
+  padding-left: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #07415d;
+}
+
+.apps .card-img-top,
+.games .card-img-top {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.apps .card-text,
+.games .card-text {
+  min-height: 100px;
+}
+
+.footer {
+  background-color: #07415d;
+  text-align: center;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
